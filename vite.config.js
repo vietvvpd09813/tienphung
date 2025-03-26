@@ -15,6 +15,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
+    target: 'esnext', // ✅ Thêm dòng này để tránh lỗi module specifier
   },
 });
 
