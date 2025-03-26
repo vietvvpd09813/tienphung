@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <section class="relative py-20 bg-gradient-to-r from-secondary-900 to-secondary-700 text-white overflow-hidden">
       <div class="absolute inset-0 opacity-30">
-        <img src="@/images/xoi-xeo.jpg" class="w-full h-full object-cover" alt="Xôi Xéo Background">
+        <img src="@/images/xoi2.jpg" class="w-full h-full object-cover" alt="Xôi Xéo Background">
       </div>
       <div class="container relative z-10">
         <div class="max-w-2xl mx-auto text-center">
@@ -108,7 +108,7 @@
         <h2 class="text-2xl font-bold text-secondary-800 mb-6 text-center">Vị trí của chúng tôi</h2>
         <div class="h-96 bg-gray-200 rounded-lg overflow-hidden shadow-lg relative">
           <div class="absolute inset-0 flex items-center justify-center">
-            <img src="@/images/Resize of Xôi Xéo.jpg" alt="Xôi Xéo Location" class="w-full h-full object-cover opacity-50" />
+            <img src="@/images/xoi2.jpg" alt="Xôi Xéo Location" class="w-full h-full object-cover opacity-50" />
             <div class="absolute inset-0 bg-primary-800 opacity-60"></div>
             <div class="absolute text-center text-white p-8">
               <h3 class="text-2xl font-bold mb-4">Bản đồ đang tải...</h3>
