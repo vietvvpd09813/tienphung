@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/your-repo/', // Đổi 'your-repo' thành tên repository của bạn
   plugins: [vue()],
   resolve: {
     alias: {
@@ -12,5 +12,8 @@ export default defineConfig({
   },
   server: {
     port: 3000,
+  },
+  build: {
+    outDir: 'dist'
   }
-}) 
+})
