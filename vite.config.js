@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
 export default defineConfig({
-  base: '/tienphung/', // Đặt đúng tên repo của bạn trên GitHub
+  base: './',
   plugins: [vue()],
   resolve: {
     alias: {
